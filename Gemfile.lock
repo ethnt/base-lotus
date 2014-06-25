@@ -1,0 +1,138 @@
+GIT
+  remote: git://github.com/lotus/controller.git
+  revision: b9d3a75eb0bef9a772f1262adff2f77e4aa6ac60
+  specs:
+    lotus-controller (0.2.0)
+      lotus-utils (~> 0.2)
+      rack (~> 1.5)
+
+GIT
+  remote: git://github.com/lotus/helpers.git
+  revision: 9f3fe2f2f60ec2c4ffaf5f0d8333ea1642c3b4a2
+  specs:
+    lotus-helpers (0.0.0)
+
+GIT
+  remote: git://github.com/lotus/lotus.git
+  revision: 248593879e0f88aee4516162014a9f46ccb12f0d
+  specs:
+    lotusrb (0.1.0)
+      lotus-controller (~> 0.2)
+      lotus-router (~> 0.1, >= 0.1.1)
+      lotus-utils (~> 0.2)
+      lotus-view (~> 0.2)
+
+GIT
+  remote: git://github.com/lotus/model.git
+  revision: 6ff91bcdc6928abd5a18f62f71c8707ced68d04a
+  specs:
+    lotus-model (0.1.1)
+      lotus-utils (~> 0.2)
+      sequel (~> 4.9)
+
+GIT
+  remote: git://github.com/lotus/router.git
+  revision: 0215c75391ac359279d2e99a2b5b4c41cc2efc76
+  specs:
+    lotus-router (0.1.1)
+      http_router (~> 0)
+      lotus-utils (~> 0)
+
+GIT
+  remote: git://github.com/lotus/utils.git
+  revision: 4f0ec4ead80495e5681bed0cbd862acf86f643f4
+  specs:
+    lotus-utils (0.2.0)
+
+GIT
+  remote: git://github.com/lotus/view.git
+  revision: e80b04fe37b5087bb88940e5be761e3f3e6e436f
+  specs:
+    lotus-view (0.2.0)
+      lotus-utils (~> 0.2)
+      tilt (~> 2.0, >= 2.0.1)
+
+GIT
+  remote: git://github.com/sstephenson/sprockets.git
+  revision: 6f52ee9d1dede15903fcc016c2eab426afcab1e8
+  ref: 6f52ee9d1dede15903fcc016c2eab426afcab1e8
+  specs:
+    sprockets (2.12.1)
+      hike (~> 2.1)
+      rack (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chunky_png (1.3.1)
+    coderay (1.1.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.7.0)
+    compass (0.12.6)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.2.19)
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
+    execjs (2.2.0)
+    foreman (0.74.0)
+      dotenv (~> 0.11.1)
+      thor (~> 0.19.1)
+    fssm (0.2.10)
+    haml (4.0.5)
+      tilt
+    hike (2.1.3)
+    http_router (0.11.1)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    method_source (0.8.2)
+    pg (0.17.1)
+    pry (0.10.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    puma (2.8.2)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rake (10.3.2)
+    sass (3.2.19)
+    sequel (4.11.0)
+    shotgun (0.9)
+      rack (>= 1.0)
+    slop (3.5.0)
+    sprockets-helpers (1.1.0)
+      sprockets (~> 2.0)
+    sprockets-sass (0.3.0)
+      sprockets (~> 2.0)
+    thor (0.19.1)
+    tilt (2.0.1)
+    url_mount (0.2.1)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  coffee-script
+  compass
+  dotenv
+  foreman
+  haml
+  lotus-controller!
+  lotus-helpers!
+  lotus-model!
+  lotus-router!
+  lotus-utils!
+  lotus-view!
+  lotusrb!
+  pg
+  pry
+  puma
+  rake
+  shotgun
+  sprockets!
+  sprockets-helpers
+  sprockets-sass
